@@ -2,12 +2,14 @@
 /**
  * _islower- check for lowercase
  *
- * _islower: 0 or 1
+ * @c: an integer
+ *
+ * Return: 1 if c is lowercase 0 if c is not
  */
 int _islower(int c)
 {
 if (c <= 'z' && c >= 'a')
 return (1);
-else 
+else
 return (0);
 }
