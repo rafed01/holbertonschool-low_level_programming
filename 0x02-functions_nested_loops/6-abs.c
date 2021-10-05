@@ -9,6 +9,6 @@ int _abs(int i)
 {
 	if (i < 0)
 		i = -i;
-	if (i >= 0)
+	else (i >= 0)
 		i = i;
 	return (i);
