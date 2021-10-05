@@ -4,13 +4,13 @@
  *@n: The value of the times table to be printed.
  *
  */
-void print_times_table(int nm)
+void print_times_table(int n)
 {
-	int nm, m, p;
+	int num, m, p;
 
-	if (nm >= 0 && nm <= 15)
+	if (num >= 0 && num <= 15)
 	{
-		for (nm = 0; nm <= n; nm++)
+		for (num = 0; num <= n; nm++)
 		{
 			_putchar('0');
 
