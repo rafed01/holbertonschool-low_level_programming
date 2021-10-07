@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_h
+#define MAIN_H
 #include <stdio.h>
 
 int _isupper(int c);
