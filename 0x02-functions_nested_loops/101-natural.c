@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-int x,s;
+int x, s;
 s = 0;
-for (x=0 ; x <= 1023 ; x++)
+for (x = 0 ; x <= 1023 ; x++)
 {
 if (x % 3 == 0)
-s = s + x ;
+s = s + x;
 else if (x % 5 == 0)
-s = s + x ;
+s = s + x;
 else if (x % 15 == 0)
-s = s + x ;
+s = s + x;
 else
 s = s;
 }
