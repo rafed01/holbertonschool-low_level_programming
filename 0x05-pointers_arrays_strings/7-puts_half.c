@@ -10,8 +10,8 @@ int len = _strlen(str);
 if (len % 2 == 0)
 {
 for (c = len / 2; c < len; c++)
-_putchar(str[c]);
-_putchar('\n');
+putchar(str[c]);
+putchar('\n');
 }
 else
 {
