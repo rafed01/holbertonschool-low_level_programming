@@ -1,12 +1,11 @@
 #include "main.h"
 void reverse_array(int *a, int n)
 {
-	int i, j = n;
-while (a[j])
-   {
-	    j--;
-
-	for (i = 0; i < n; i++)
-		a[i] = a[j];
+int i, x, j = n;
+for(j--, i = 0; a[i] <= n / 2; i++, j--  )
+{
+x = a[i];
+a[i] = a[j];
+a[j] = x;
 }
 }
