@@ -10,9 +10,9 @@ char *cap_string(char *ch)
 {
 	int i = 0;
 
-	while (str[i])
+	while (ch[i])
 	{
-		while (!(str[i] >= 'a' && str[i] <= 'z'))
+		while (!(ch[i] >= 'a' && ch[i] <= 'z'))
 			i++;
 
 		if (ch[i - 1] == ' ' ||
