@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strncat)- link two strings
- * @*dest :string to be concatenated with src
- * @*src : string to concatenate to dest
- * @n : how many bytes to link from src to dest 
+ * @dest :string to be concatenated with src
+ * @src : string to concatenate to dest
+ * @n : how many bytes to link from src to dest
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
@@ -15,7 +15,7 @@ while (dest[l])
 l++;
 }
 
-for (i = 0; src[i] <= n; i++)
+for (i = 0; src[i] < n; i++)
 {
 dest[l] = src[i];
 l++;
