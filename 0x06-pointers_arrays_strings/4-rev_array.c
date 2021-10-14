@@ -9,5 +9,4 @@ while (a[j])
 	for (i = 0; i < n; i++)
 		a[i] = a[j];
 }
-a[i] = '\0';
 }
