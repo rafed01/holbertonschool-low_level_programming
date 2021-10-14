@@ -4,7 +4,7 @@
  * @dest :string to be concatenated with src
  * @src : string to concatenate to dest
  * Return: dest
- */ 
+ */
 char *_strcat(char *dest, char *src)
 {
 int l = 0, i;
