@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _memcpy - copies memory area
- * @dest: character array to copy to
- * @src: character array to copy from
- * @n: how many bytes to copy
+ * @dest: string to copy to
+ * @src: cstring to copy from
+ * @n: how many chars to copy
  * Return: the pointer to the char array
  */
 
