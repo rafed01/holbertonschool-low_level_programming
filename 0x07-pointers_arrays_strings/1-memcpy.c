@@ -4,7 +4,7 @@
  * @dest: string to copy to 
  * @src: string to copy from
  * @n: how many chars to copy
- * Return: the pointer to the char array
+ * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
