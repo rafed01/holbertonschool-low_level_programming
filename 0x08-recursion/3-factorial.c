@@ -2,6 +2,7 @@
 /**
  * factorial- returns n!
  * @n :number to factorialise
+ * Return: n!
  */
 int factorial(int n)
 {
