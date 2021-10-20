@@ -9,7 +9,7 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int _sqrt(int nm, int r);
-int isitprm(int i, int n);
+int is_it_prm(int i, int n);
 int is_prime_number(int n);
 
 #endif
