@@ -25,3 +25,4 @@ return (is_it_prm(i + 1, n));
 int is_prime_number(int n)
 {
 	return (is_it_prm(2, n));
+}
