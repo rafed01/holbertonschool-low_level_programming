@@ -3,7 +3,7 @@
 
 struct dog
 {
-	char *namespace name;
+	char *name;
 	float age;
 	char *owner; 
 	
