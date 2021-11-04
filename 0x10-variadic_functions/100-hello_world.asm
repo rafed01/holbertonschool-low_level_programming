@@ -1,6 +1,6 @@
-; File: 100-hello_holberton.asm
+; File: 100-hello_world.asm
 ; Desc: 64-bit assembly program that prints
-;       Hello, Holberton followed by a new line.
+;       Hello, World followed by a new line.
 section .text
    global main
 
@@ -15,5 +15,5 @@ main:
    int 0x80
 
 section .data
-   msg: db 'Hello, Holberton', 0xa
+   msg: db 'Hello, World', 0xa
    len: equ $ - msg
